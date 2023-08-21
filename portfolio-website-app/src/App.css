@@ -4,6 +4,18 @@ body {
   justify-content: top;
   align-content: center;
   text-align: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav {
+ 
+  display: flex;
+  justify-content: center; /* Center horizontally */
 }
 
 #navbar {
@@ -11,9 +23,23 @@ body {
   display: flex;
   padding: 0;
   text-align: center;
+  font-size: xx-large;
 }
 
 #navbar li {
   margin-right: 20px;
   text-align: center;
+  text-decoration: none;
+}
+
+#footer {
+  position: fixed; /* Position the footer at the bottom of the viewport */
+  left: 0; /* Align the footer to the left */
+  bottom: 0; /* Position the footer at the bottom */
+  width: 100%; /* Make the footer span the full width of the viewport */
+  height: 60px; /* Set a specific height for the footer */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
