@@ -9,7 +9,7 @@ body {
   justify-content: top;
   align-content: center;
   text-align: center;
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   padding: 0;
 }
@@ -80,4 +80,5 @@ nav {
   background-color: #464e5c;
   border-top: 2px solid white;
   padding-top: 10px;
+  font-style: italic;
 }
