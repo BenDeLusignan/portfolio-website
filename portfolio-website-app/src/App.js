@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="App">
       <body>
-        <h1>Ben de Lusignan</h1>
+        <h1>| Ben de Lusignan |</h1>
         <Router>
           <nav>
             <ul id="navbar">

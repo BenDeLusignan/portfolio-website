@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import './Homepage.style.css'
 
 const Homepage = () => {
   useEffect(() => {
@@ -6,7 +7,7 @@ const Homepage = () => {
   }, []);
 
   return (
-    <div>
+    <div id="content">
       <h2>Home Page</h2>
       <p>This is home.</p>
     </div>
