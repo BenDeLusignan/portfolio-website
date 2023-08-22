@@ -6,7 +6,7 @@ const Python = () => {
   }, []);
   
   return (
-    <div>
+    <div id="content">
       <h2>Python Page</h2>
       <p>This is the Python page content.</p>
     </div>

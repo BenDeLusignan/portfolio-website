@@ -6,7 +6,7 @@ const Profile = () => {
   }, []);
   
   return (
-    <div>
+    <div id="content">
       <h2>Profile Page</h2>
       <p>This is the profile page content.</p>
     </div>

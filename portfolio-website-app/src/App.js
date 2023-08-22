@@ -7,15 +7,16 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="App">
+
       <body>
-        <h1>| Ben de Lusignan |</h1>
+      <div id="container">
         <Router>
+        <div id="headerLink">
+        <Link to="/"><h1>| Ben de Lusignan |</h1></Link>
+        </div>
+        
           <nav>
             <ul id="navbar">
-              <li>
-                <Link to="/">Home</Link>
-              </li>
               <li>
                 <Link to="/profile">Profile</Link>
               </li>
@@ -34,8 +35,9 @@ const App = () => {
         <footer id="footer">
           Ben de Lusignan | 2023
         </footer>
+        </div>
       </body>
-    </div>
+
   );
 };
 
