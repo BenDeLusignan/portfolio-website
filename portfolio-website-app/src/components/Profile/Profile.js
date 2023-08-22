@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const Profile = () => {
   useEffect(() => {
-    document.title = "Profile | Ben de Lusignan"; // Set your desired title here
+    document.title = "Profile | Ben de Lusignan";
   }, []);
   
   return (

@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #282c34;
+  /*background-color: #282c34;*/
   color: white;
   justify-content: top;
   align-content: center;
@@ -12,18 +12,21 @@ body {
   width: 90%;
   margin: 0 auto;
   padding: 0;
+  background-image: url("./cyberpunk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #container{
-  background-color: #464e5c;
+  background-color: #434d5ef4;
   min-height: 100vh;
 }
 
 a{
   text-decoration: none;
-  background-color: rgb(68, 117, 202);
+  background-color: rgb(41, 51, 70);
   padding: 8px;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 5px;
 }
 
@@ -39,16 +42,26 @@ a:visited{
   border-bottom: 2px solid white;
   margin: 0;
   padding: 10px;
+  
 }
 
 #headerLink a{
-  background-color: #464e5c;
+  background-color: #434d5e;
   border: none;
+  font-size: large;
+}
+
+#headerLink a:hover{
+  background-color: #434d5e;
+  color: rgb(180, 52, 231);
+  border: none;
+  font-size: large;
 }
 
 nav {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #navbar {
@@ -58,17 +71,26 @@ nav {
   text-align: center;
   font-size: xx-large;
   align-items: center;
+  justify-content: center;
 }
 
 #navbar li {
-  margin-right: 20px;
+
   text-align: center;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  transform: skewX(-30deg);
 }
 
 #navbar a{
+  margin-left: 5px;
+  margin-right: 5px;
   display: block;
-  width: 220px;
+  width: 270px;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 #footer {
@@ -77,8 +99,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #464e5c;
+  background-color: #434d5e;
   border-top: 2px solid white;
   padding-top: 10px;
   font-style: italic;
+  width: 80%;
+  margin: 0 auto;
 }

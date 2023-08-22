@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const Python = () => {
   useEffect(() => {
-    document.title = "Python | Ben de Lusignan"; // Set your desired title here
+    document.title = "Python | Ben de Lusignan";
   }, []);
   
   return (

@@ -1,8 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import Python from "./components/Python/Python.js";
 import Homepage from "./components/Homepage/Homepage.js";
 import Profile from "./components/Profile/Profile.js";
+import Python from "./components/Python/Python.js";
+import Java from "./components/Java/Java.js";
+import HCJ from "./components/HTML-CSS-JS/Html-css-js.js";
+import OtherInterests from "./components/Other-interests/Other-interests.js"
 import "./App.css";
 
 const App = () => {
@@ -25,13 +28,13 @@ const App = () => {
                 <Link to="/python">Python</Link>
               </li>
               <li>
-                <Link to="/python">Java</Link>
+                <Link to="/java">Java</Link>
               </li>
               <li>
-                <Link to="/python">HTML/CSS/JS</Link>
+                <Link to="/hcj">HTML/CSS/JS</Link>
               </li>
               <li>
-                <Link to="/python">Other</Link>
+                <Link to="/other">Other Interests</Link>
               </li>
             </ul>
           </nav>
@@ -39,6 +42,9 @@ const App = () => {
             <Route path="/" element={<Homepage />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/python" element={<Python />} />
+            <Route path="/java" element={<Java />} />
+            <Route path="/hcj" element={<HCJ />} />
+            <Route path="/other" element={<OtherInterests />} />
           </Routes>
         </Router>
 
