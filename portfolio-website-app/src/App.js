@@ -7,14 +7,15 @@ import "./App.css";
 
 const App = () => {
   return (
-
-      <body>
+    <body>
       <div id="container">
         <Router>
-        <div id="headerLink">
-        <Link to="/"><h1>| Ben de Lusignan |</h1></Link>
-        </div>
-        
+          <div id="headerLink">
+            <Link to="/">
+              <h1>| Ben de Lusignan |</h1>
+            </Link>
+          </div>
+
           <nav>
             <ul id="navbar">
               <li>
@@ -23,21 +24,27 @@ const App = () => {
               <li>
                 <Link to="/python">Python</Link>
               </li>
+              <li>
+                <Link to="/python">Java</Link>
+              </li>
+              <li>
+                <Link to="/python">HTML/CSS/JS</Link>
+              </li>
+              <li>
+                <Link to="/python">Other</Link>
+              </li>
             </ul>
           </nav>
           <Routes>
+            <Route path="/" element={<Homepage />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/python" element={<Python />} />
-            <Route path="/" element={<Homepage />} />
           </Routes>
         </Router>
 
-        <footer id="footer">
-          Ben de Lusignan | 2023
-        </footer>
-        </div>
-      </body>
-
+        <footer id="footer">Ben de Lusignan | 2023</footer>
+      </div>
+    </body>
   );
 };
 
