@@ -1,6 +1,6 @@
-.App{
-  margin: 0;
-  padding: 0;
+#headerImage{
+  width:55%;
+  margin-top: 1%;
 }
 
 body {
@@ -9,11 +9,9 @@ body {
   justify-content: top;
   align-content: center;
   text-align: center;
-  width: 90%;
+  width: 93%;
   margin: 0 auto;
-  padding: 0;
   background-image: url("./cyberpunk.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -24,11 +22,17 @@ body {
 
 a{
   text-decoration: none;
-  background-color: rgb(41, 51, 70);
-  padding: 8px;
-  border: 3px solid black;
+  /*background-color: rgb(48, 61, 83);*/
+  background-color: rgb(59, 88, 138);
+  padding: 6px;
+  border: 5px solid black;
   border-radius: 5px;
+  transform: skewX(-30deg);
+  margin-left: 5px;
+  margin-right: 5px;
 }
+
+
 
 a:hover{
   background-color: rgb(123, 147, 178);
@@ -39,7 +43,7 @@ a:visited{
 }
 
 #headerLink{
-  border-bottom: 2px solid white;
+  border-bottom: 3px solid white;
   margin: 0;
   padding: 10px;
   
@@ -51,17 +55,12 @@ a:visited{
   font-size: large;
 }
 
-#headerLink a:hover{
-  background-color: #434d5e;
-  color: rgb(180, 52, 231);
-  border: none;
-  font-size: large;
-}
 
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 3px solid white;
 }
 
 #navbar {
@@ -74,35 +73,19 @@ nav {
   justify-content: center;
 }
 
-#navbar li {
-
-  text-align: center;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
-  transform: skewX(-30deg);
-}
-
 #navbar a{
   margin-left: 5px;
   margin-right: 5px;
   display: block;
-  width: 270px;
-  justify-content: center;
-  align-items: center;
-  
+  width: 250px;
 }
 
 #footer {
   bottom: 0;
-  color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #434d5e;
-  border-top: 2px solid white;
+  border-top: 3px solid white;
   padding-top: 10px;
-  font-style: italic;
   width: 80%;
   margin: 0 auto;
 }

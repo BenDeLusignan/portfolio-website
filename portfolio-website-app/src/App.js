@@ -6,6 +6,7 @@ import Python from "./components/Python/Python.js";
 import Java from "./components/Java/Java.js";
 import HCJ from "./components/HTML-CSS-JS/Html-css-js.js";
 import OtherInterests from "./components/Other-interests/Other-interests.js"
+import HeaderImage from "./bendelusignan.png"
 import "./App.css";
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
         <Router>
           <div id="headerLink">
             <Link to="/">
-              <h1>| Ben de Lusignan |</h1>
+              <img src={HeaderImage} alt="Header for the webpage." id="headerImage"></img>
             </Link>
           </div>
 
